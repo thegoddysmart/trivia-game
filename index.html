@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"/>
+    <title>Trivia game</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <main>
+        <div class="big-wrapper">
+  
+          <header>
+            <div class="container">
+              <div class="logo">
+                <h3>MilSmart Game</h3>
+              </div>
+  
+            </div>
+          </header>
+  
+          <div class="hero-section">
+            <div class="container">
+              <div class="big-title">
+                  <h1>Welcome to this exciting Trivia Quiz</h1>
+                </div>
+                <p class="text">
+                  This quiz has a lot of fun questions to test your general knowledge. First type in your name and then click on the button to play the game.
+                </p>
+
+                <label for="playerName">Enter your name:</label>
+                <input type="text" id="playerName" placeholder="Your Name">
+
+                <div class="cta">
+                    <!-- <a href="/src/playground.html" class="btn"></a> -->
+                    <button onclick="startGame()" class="btn">Get started</button>
+                </div>
+  
+            </div>
+          </div>
+        </div>
+      </main>
+
+
+<script src="./trivia.js"></script>
+</body>
+</html>
